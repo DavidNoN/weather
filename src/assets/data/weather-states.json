@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Dist. Columbia",
+    "flag_url": "https://cdn.britannica.com/94/4994-004-F06634D5/Flag-District-of-Columbia.jpg",
+    "cod": "LWX"
+  },
+  {
+    "name": "Kansas",
+    "flag_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Kansas.svg/640px-Flag_of_Kansas.svg.png",
+    "cod": "TOP"
+  }
+]

@@ -1,0 +1,22 @@
+@for (weather of weatherStates; track weather.name) {
+  <div class="widget" [routerLink]="['/weather', weather.cod]">
+
+    <div class="left-panel panel">
+      <div class="date">
+        {{ today | date: 'EEE, d MMM yyyy' }}
+      </div>
+      <div class="city">
+          {{ weather.name }}
+      </div>
+      <div class="temp">
+        <img ngSrc="https://cdn-icons-png.freepik.com/512/5493/5493014.png" alt="" width="60" height="50">
+        27&deg;
+      </div>
+    </div>
+    <div class="right-panel panel">
+      <img [ngSrc]="weather.flagUrl" alt="" width="120" height="80" priority="true">
+    </div>
+
+  </div>
+}
+
